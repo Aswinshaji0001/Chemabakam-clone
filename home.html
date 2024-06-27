@@ -7,7 +7,7 @@
 </head>
 <style>
     .a1{
-        height: 40px;
+        height: 20px;
         width: 100%;
         border: 1px solid gray;
         background-color: #aa7a4d;;
@@ -16,18 +16,14 @@
         color: rgb(255, 255, 255);
     }
     .a2{
-        margin-top: 5px;
         height: 100px;
         width: 100%;
         border: 1px solid gray;
         background-color: #3f3f3f;
         background-image: url(mm.jpg);
-
-        display:overflow;
     }
     .a3{
-        margin-top: 5px;
-        height: 500px;
+        height: 565px;
         width: 100%;
         border: 1px solid gray;
         background-image: url(banner.webp);
@@ -42,7 +38,6 @@
    p{
     font-size: large;
    }
-
    .divi{
     float: left;
    }
@@ -52,25 +47,109 @@
     font-size: 15px;
     color: aliceblue;
    }
-   .divs:hover{
+   a{
+    text-decoration: none;
+    color: aliceblue;
+   }
+   .divs:hover a{
     color: blueviolet;
+   }
+   .diva{
+    margin-top: 25px;
+    float:left;
+    font-size: 15px;
+    color: aliceblue;
+    opacity: 0.5
+   }
+   .a6{
+    padding-top: 10px;
+    padding-left: 500px;
+    font-family: jost, sans-serif;
+   }
+   .a7{
+    padding-top: 20px;
+    padding-left: 500px;
+   }
+   .a8{
+    padding-top: 30px;
+    padding-left: 500px;
+    padding-bottom: 40px ;
+    font-size: 50px; color: aliceblue;
+    font-family:jost, sans-serif;
+   }
+   .a9{
+     margin-top: 30px;
+    margin-left: 500px;
+    margin-bottom: 40px ;
+    font-size: 50px; color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    height: 10px;
+    width: 10px;
+    display: inline;
+    background-color: white;
+   }
+   .a10{
+    padding-top: 20;
+    font-size: 50px; color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(255, 0, 0);
+    height: 10px;
+    width: 10px;
+    display: inline;
+    background-color: white;
+   }
+   .bt1{
+    margin-left: 500px;
+    margin-top:5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    position: absolute;
+   }
+   .bt2{
+    margin-left: 500px;
+    margin-top:75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    position: relative;
+   }
+   .divr{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    float:left;
+    font-size: 15px;
+    color: aliceblue;
    }
 </style>
 <body>
     <div class="a1">
-        <marquee behavior="" direction="">Welcome guys</marquee>
+        <marquee behavior="" direction="left" scrollamount="25">Welcome guys</marquee>
     </div>
     <div class="a2">
         <div class="divi"><img  src="logo.png" style="padding-left: 200px;" alt="" class="src"></div>
-        <div class="divs">SHOP NOW</div>
-        <div class="divs" style="padding-left: 50PX;">REVIEWS</div>
-        <div class="divs" style="padding-left: 50PX;">ABOUT US</div>
-        <div class="divs" style="padding-left: 50PX;">CONTACT</div>
+        <div class="divs" style="padding-left: 50px;"><a href="index.html">SHOP NOW</a></div>
+        <div class="divs" style="padding-left: 50PX;"><a href="">REVIEWS</a></div>
+        <div class="divs" style="padding-left: 50PX;"><a href="">ABOUT US</a></div>
+        <div class="divs" style="padding-left: 50PX;"><a href="">CONTACT</a></div>
+        <div class="diva" style="padding-left: 50PX;"><input type="text"></div>
     </div>
     <div class="a3">
-        <p style="font-size: large; color: aliceblue; margin-left: 500px; margin-top: 70px;">WELCOME TO</p>
-        <img src="chem.png" style="margin-left: 500px; margin-top: 70px;" alt="">
-
+        <div class="a6"
+            style="font-size: 50px; color: aliceblue;">Welcome to
+        </div>
+        <div class="a7">
+            <img src="chem.png" alt="">
+        </div>
+        <Div class="a8">
+            Online Shop
+        </Div>
+        <input type="button" name="" id="" value="SHOP NOW" class="bt1">
+        <input type="button" name="" id="" value="DISCOUNT SALE" class="bt2">
     </div>
 </body>
 </html>
